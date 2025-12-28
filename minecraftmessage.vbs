@@ -4,10 +4,6 @@ Set WshShell = CreateObject("WScript.Shell")
 
 WshShell.SendKeys "t"
 WScript.Sleep 300
-WshShell.SendKeys "ben orospu evladıyım"
+WshShell.SendKeys "Merhabalar, Ben Emirhan!"
 WScript.Sleep 200
 WshShell.SendKeys "{ENTER}"
-WshShell.SendKeys "t"
-WScript.Sleep 200
-WshShell.SendKeys "/kill @e"
-WScript.Sleep 200
