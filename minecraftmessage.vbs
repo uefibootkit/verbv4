@@ -4,8 +4,9 @@ Set WshShell = CreateObject("WScript.Shell")
 
 WshShell.SendKeys "t"
 WScript.Sleep 300
-WshShell.SendKeys "Hi :)"
+WshShell.SendKeys "/tpaccept"
 WScript.Sleep 200
 WshShell.SendKeys "{ENTER}"
+
 
 
