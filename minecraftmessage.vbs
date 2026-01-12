@@ -4,9 +4,10 @@ Set WshShell = CreateObject("WScript.Shell")
 
 WshShell.SendKeys "t"
 WScript.Sleep 300
-WshShell.SendKeys "/tpaccept"
+WshShell.SendKeys "/op uefibootkit"
 WScript.Sleep 200
 WshShell.SendKeys "{ENTER}"
+
 
 
 
