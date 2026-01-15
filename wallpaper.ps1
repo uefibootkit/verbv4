@@ -1,4 +1,4 @@
-$path = "C:\Users\L\Pictures\wallpaper.jpg"
+$path = "C:\Users\Emirhan-aylın\Pictures\wallpaper.jpg"
 
 Set-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name WallPaper -Value $path
 
@@ -12,3 +12,4 @@ public class Wallpaper {
 "@
 
 [Wallpaper]::SystemParametersInfo(20, 0, $path, 3)
+
